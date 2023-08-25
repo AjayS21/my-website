@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    height: 64px;
+    padding: 8px 0px 1px 0px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #6494E0;
+    color: #fff;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hamburger {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    /* Add styles for the hamburger icon, like lines or a custom icon */
+  }
+  
+  .logo {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .center {
+    flex-grow: 1;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-btn,
+  .register-btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 8px 16px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .login-btn:hover,
+  .register-btn:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
